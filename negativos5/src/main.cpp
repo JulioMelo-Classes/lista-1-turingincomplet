@@ -14,7 +14,7 @@ int main(void)
       neg++;
   }
   cout<<neg;
-    // TODO: Adicione aqui seu código.
+
 
     return 0;
 }
