@@ -1,5 +1,5 @@
-#include "function.h"
-
+//#include "function.h"
+#include <array>
 #include <iterator>
 using std::iter_swap;
 
@@ -8,7 +8,10 @@ using std::iter_swap;
  * @param arr Reference to the array with the values.
  */
 template <size_t SIZE>
-void reverse( std::array< std::string, SIZE > & arr )
+void reverse(std::array< std::string, SIZE >& arr)
 {
-    /*codigo*/
+    long int s=0, e=SIZE - 1;
+    for (; s < e; s++, e--) {
+        swap(arr[s], arr[e]);
+    }
 }
