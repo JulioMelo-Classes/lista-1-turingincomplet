@@ -4,6 +4,9 @@ using std::cout;
 
 const int SIZE = 5; // input size.
 
+/*
+ok
+*/
 int main(void)
 {
   int arr[SIZE];
@@ -16,5 +19,5 @@ int main(void)
   cout<<neg;
 
 
-    return 0;
+    return 0; //indentação!
 }

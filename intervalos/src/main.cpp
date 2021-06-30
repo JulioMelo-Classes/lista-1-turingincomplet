@@ -15,7 +15,9 @@ double getp(double f, int t) {
     return 100 * (f / t);
 }
 
-
+/*
+ok
+*/
 int main(void)
 {
     int x;
